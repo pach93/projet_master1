@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#4F7">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtLogin"
+        android:width="300dp"
+        android:hint="Nom utilisateur"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtPwd"
+        android:width="300dp"
+        android:hint="Mot de passe"
+        android:layout_below="@+id/edtLogin"
+        android:layout_alignLeft="@+id/edtLogin"
+        android:layout_alignStart="@+id/edtLogin"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        android:id="@+id/btnCnx"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/edtPwd"
+        android:layout_alignStart="@+id/edtPwd"
+        android:width="300dp"/>
+</RelativeLayout>
